@@ -13,7 +13,7 @@
 
 #include "newtestclass.h"
 #include "myprojc.h"
-
+#include <ostream>
 
 CPPUNIT_TEST_SUITE_REGISTRATION(newtestclass);
 

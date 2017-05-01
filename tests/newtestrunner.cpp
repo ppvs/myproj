@@ -24,8 +24,13 @@
 #include <cppunit/TestFailure.h>
 #include <cppunit/portability/Stream.h>
 
-#include <cppunit/XmlOtputter.h>
+#include <cppunit/XmlOutputter.h>
+#include <iostream>
 #include <ostream>
+using namespace std;
+using namespace CppUnit;
+
+
 
 class ProgressListener : public CPPUNIT_NS::TestListener {
 public:

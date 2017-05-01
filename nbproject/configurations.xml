@@ -51,6 +51,9 @@
           <commandLine>`cppunit-config --cflags`</commandLine>
         </cTool>
         <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
           <commandLine>`cppunit-config --cflags`</commandLine>
         </ccTool>
         <linkerTool>
