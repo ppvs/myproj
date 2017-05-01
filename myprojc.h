@@ -24,7 +24,7 @@ public:
     myprojc(const string& aWho);
     myprojc(const myprojc& orig);
     virtual ~myprojc();
-    string message() const:
+    string message() const;
 private:
     string who;
 };

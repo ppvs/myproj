@@ -21,7 +21,7 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    myprojc myprojc("world")
+    myprojc myprojc("world");
     cout << "Hello world"<< endl;
     cout << "YoHoHo"<< endl;
 /*    system("pause");*/
