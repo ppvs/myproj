@@ -30,10 +30,13 @@ void newtestclass::tearDown() {
 }
 
 void newtestclass::testMessage() {
-    myprojc _myprojc;
-    string result = _myprojc.message();
+    //myprojc _myprojc;
+    myprojc myprojc("test");
+    //string result = _myprojc.message();
+    string result = myprojc.message();
     if (true /*check result*/) {
-        CPPUNIT_ASSERT(false);
+        //CPPUNIT_ASSERT(false);
+        CPPUNIT_ASSERT(result == "Hello test");
     }
 }
 
